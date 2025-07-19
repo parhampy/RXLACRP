@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lac Roxan - برترین سرور Lac</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Almarai', sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            width: 90%;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .main-title {
+            font-size: 4rem;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            background: linear-gradient(to right, #ff8a00, #e52e71);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .sub-title {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #fff;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .rubika {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: inline-block;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #e52e71;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">LR</div>
+        <h1 class="main-title">Lac Roxan</h1>
+        <h2 class="sub-title">برترین سرور Lac</h2>
+        
+        <div class="features">
+            <span class="feature">سپاه پاسداران</span>
+            <span class="feature">پلیس</span>
+            <span class="feature">دکتر</span>
+            <span class="feature">تاکسی</span>
+            <span class="feature">دزد بانک</span>
+            <span class="feature">آنتی چیت</span>
+        </div>
+        
+        <div class="rubika">@lac_roxan</div>
+    </div>
+</body>
+</html>
