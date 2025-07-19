@@ -97,6 +97,46 @@
             animation: pulse 2s infinite;
         }
         
+        .server-info {
+            margin: 25px 0;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .server-ip {
+            font-family: monospace;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        
+        .server-status {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 20px;
+            border-radius: 50px;
+            background: #ff3333;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .status-icon {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: white;
+            border-radius: 50%;
+            margin-left: 8px;
+            animation: blink 1.5s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        
         @keyframes pulse {
             0% {
                 transform: scale(1);
@@ -130,6 +170,14 @@
         <div class="logo">LR</div>
         <h1 class="main-title">Lac Roxan</h1>
         <h2 class="sub-title">برترین سرور Lac</h2>
+        
+        <div class="server-info">
+            <div class="server-ip">144.76.57.59:27427</div>
+            <div class="server-status">
+                <span class="status-icon"></span>
+                وضعیت: خاموش
+            </div>
+        </div>
         
         <div class="features">
             <span class="feature">سپاه پاسداران</span>
